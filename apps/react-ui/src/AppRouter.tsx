@@ -2,6 +2,7 @@ import { Outlet, createBrowserRouter, type RouteObject } from 'react-router-dom'
 import { AppLayout } from './layout/AppLayout'
 import { HomePage } from './pages/HomePage'
 import { PostPage } from './pages/PostPage'
+import { Login } from './pages/Login'
 
 const publicRoutes: RouteObject[] = [
   {
@@ -16,6 +17,10 @@ const publicRoutes: RouteObject[] = [
       {
         path: 'posts/:id',
         element: <PostPage />,
+      },
+      {
+        path: 'login/',
+        element: <Login />,
       },
     ],
   },

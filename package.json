@@ -1,5 +1,5 @@
 {
-  "name": "@rfx-nx-ts-rest/source",
+  "name": "@ft_transcendence/source",
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
@@ -39,6 +39,7 @@
     "react-dom": "18.2.0",
     "react-error-boundary": "^4.0.11",
     "react-router-dom": "^6.15.0",
+    "react-hook-form": "^7.45.1",
     "tailwind-merge": "^1.14.0",
     "tslib": "^2.3.0",
     "zod": "^3.22.1"
